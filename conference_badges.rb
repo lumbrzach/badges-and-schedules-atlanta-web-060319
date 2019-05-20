@@ -3,8 +3,7 @@ def badge_maker (name)
 end
 
 def batch_badge_creator (luminaries)
-  luminaries.each |i| do 
+  luminaries.each |i| do
     badge_maker(i)
   end
 end
-
