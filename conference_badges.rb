@@ -9,6 +9,5 @@ def batch_badge_creator (luminaries)
 end
 
 def assign_rooms(attendees)
-  room_assignments = (1..7).to_a
-  attendees.map {|i| "Hello, #{attendees[1]}! You'll be assigned to room #{room_assignments[1]}!"}
+  attendees.map.each_with_index {|attendees, room | "Hello, #{attendees}! You'll be assigned to room #{room+1}!"}
 end
