@@ -13,9 +13,13 @@ def assign_rooms(attendees)
 end
 
 
-
-
 def printer(attendees)
+  assign_rooms(attendees).each do |assignment|
+    puts assignment
+  end
+end
+
+#def printer(attendees)
   assign_rooms(attendees).each do |i|
     puts i
   end
