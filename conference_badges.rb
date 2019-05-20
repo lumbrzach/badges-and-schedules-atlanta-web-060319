@@ -4,6 +4,6 @@ end
 
 def batch_badge_creator (luminaries)
   luminaries.each do |i|
-    badge_maker(i)
+    "Hello, my name is #{i}."
   end
 end
