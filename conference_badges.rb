@@ -11,3 +11,7 @@ end
 def assign_rooms(attendees)
   attendees.map.each_with_index {|attendees, room | "Hello, #{attendees}! You'll be assigned to room #{room+1}!"}
 end
+
+def printer (attendees)
+  assign_rooms(attendees).each do {|i| puts i}
+end
